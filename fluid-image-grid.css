@@ -1,0 +1,53 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: #eee;
+  overflow-y: scroll;
+  padding: 12px 0 12px 12px;
+}
+
+.fluid-image-grid {
+  clear:both;
+  position:relative;
+  zoom:1;
+  font-size: medium;
+  min-width: 760px;
+  font-weight: normal;
+}
+
+.fluid-image-grid-inner {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  visibility:hidden;
+}
+
+.rg_di {
+  margin-right: 12px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  vertical-align: top;
+}
+
+.rg_i {
+  border: 0;
+  display: block;
+}
+
+.rg_l {
+  cursor: pointer;
+  background: #ccc;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.rg_meta {
+  display: none;
+}
